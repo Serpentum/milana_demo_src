@@ -1,0 +1,67 @@
+.container {
+  transition: var(--defalut-color-change);
+  background: #fff;
+  padding: 9px 24px;
+  display: flex;
+  align-items: center;
+  box-shadow: 0 4px 40px rgba(0, 0, 0, 0.1);
+  border-radius: 36px;
+  gap: 6px;
+
+  cursor: pointer;
+
+  &:hover {
+    background: var(--content-blue-color);
+    color: #fff
+  }
+
+  &:hover .cart {
+    svg {
+      path {
+        fill: #fff;
+      }
+    }
+  }
+
+  &:hover .badge {
+    background: #fff;
+    color: var(--primary-text-color);
+  }
+  &:hover .etc {
+    p:last-child {
+      color: #fff;
+    }
+  }
+}
+
+.cart {
+  position: relative;
+
+  svg {
+    path {
+      transition: var(--defalut-color-change);
+    }
+  }
+}
+
+.badge {
+  transition: var(--defalut-color-change);
+}
+
+.etc {
+  > p:first-child {
+    font-family: var(--second-font);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+  }
+
+  > p:last-child {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    color: var(--secondary-text-color);
+  }
+}

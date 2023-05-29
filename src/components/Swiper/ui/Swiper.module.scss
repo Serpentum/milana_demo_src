@@ -1,0 +1,25 @@
+.container {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+  position: relative;
+  margin-top: 44px;
+}
+
+.arrowPrev {
+  position: absolute;
+  left: -54px;
+  top: calc(50% - 47px / 2);
+}
+.arrowNext {
+  transform: rotate(180deg);
+  position: absolute;
+  top: calc(50% - 47px / 2);
+  right: -54px;
+}
+
+.slider {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}

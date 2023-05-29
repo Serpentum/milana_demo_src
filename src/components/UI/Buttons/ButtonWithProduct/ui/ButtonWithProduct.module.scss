@@ -1,0 +1,42 @@
+.container {
+  display: flex;
+  gap: 15px;
+  transition: var(--defalut-color-change);
+  padding: 6px;
+  font-family: var(--main-font);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
+  background: var(--button-bg);
+  border-radius: 16px;
+  cursor: pointer;
+  background: var(--content-blue-color);
+  color: #fff;
+}
+
+.control {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+
+  > button {
+    cursor: pointer;
+    border: none;
+    background: none;
+    font-family: var(--main-font);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    color: #FFFFFF;
+  }
+}
+
+
+.toCart {
+  border: none;
+  background: #fff;
+  padding: 8px 13px;
+  border-radius: 11px;
+}

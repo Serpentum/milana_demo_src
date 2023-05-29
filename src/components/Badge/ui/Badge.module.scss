@@ -1,0 +1,14 @@
+.container {
+  position: absolute;
+  top: -5px;
+  right: -5px;
+  background: var(--content-blue-color);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  width: 22px;
+  height: 22px;
+  font-size: 8px;
+  color: #fff;
+}

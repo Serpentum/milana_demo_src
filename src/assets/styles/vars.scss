@@ -1,0 +1,29 @@
+:root {
+  //fonts
+  --main-font: 'Verdana', serif;
+  --second-font: 'Inter', serif;
+
+  //colors
+  --main-bg: #F3F3F7;
+  --button-bg: #EBEBEB;
+  --main-border-color: #AFAFAF;
+  --content-blue-color: #0658F6;
+
+  --primary-text-color: #222222;
+  --secondary-text-color: #AFAFAF;
+  --prodict-item-text-color: #525252;
+  --prodict-item-text-color-secondary: #898989;
+
+  //gap
+  --menu-elements-gap: 20px;
+
+  //paddings
+  --header-padding: 24px;
+
+  //size
+  --header-font-size: 20px;
+
+  //transition
+  --defalut-color-change: all .2s ease;
+  --header-transition: all .3s ease;
+}

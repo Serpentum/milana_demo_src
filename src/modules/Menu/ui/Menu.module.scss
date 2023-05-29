@@ -1,0 +1,9 @@
+.container {
+  position: relative;
+}
+
+.itemWrapper {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--menu-elements-gap);
+}
